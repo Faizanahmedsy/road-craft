@@ -1,6 +1,5 @@
-import Footer from "@/components/modules/footer";
-import NavBar from "@/components/modules/navbar";
 import React from "react";
+import { Footer, Navbar } from "@/components/modules";
 
 export default function LandingLayout({
   children,
@@ -9,7 +8,7 @@ export default function LandingLayout({
 }) {
   return (
     <>
-      <NavBar />
+      <Navbar />
       <main>{children}</main>
       <Footer />
     </>
