@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function AboutSection() {
   return (
-    <div className="flex flex-col gap-2 justify-center items-center mt-10 bg-teal-50 py-10 px-32">
+    <div className="flex flex-col gap-2 justify-center items-center  bg-teal-50 py-10 px-32">
       <H2>About Us</H2>
       <div className="grid grid-cols-2">
         <div className="p-4 flex justify-center items-center">
