@@ -11,7 +11,7 @@ import H2 from "../shared/h2";
 
 export default function ShowcaseSection() {
   return (
-    <div className="py-10 px-32">
+    <div className="py-10 px-32 my-20">
       <div className="flex flex-col justify-between items-center">
         <H2>Show Case</H2>
       </div>

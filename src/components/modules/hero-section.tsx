@@ -5,7 +5,7 @@ const HeroSection = () => {
   return (
     <>
       {/* <div className="absolute inset-0 -z-10 h-full w-full bg-white [background:radial-gradient(125%_125%_at_50%_10%,#fff_40%,#63e_100%)]"></div> */}
-      <div className="h-screen flex flex-col justify-center items-center px-32">
+      <div className="h-screen flex flex-col justify-start items-center px-32 pt-20">
         <div className="grid grid-cols-2">
           <div className=" z-10 py-32">
             <h1 className="text-4xl md:text-6xl font-extrabold mb-4 leading-tight">

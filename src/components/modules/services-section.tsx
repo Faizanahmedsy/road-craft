@@ -27,7 +27,7 @@ export default function ServicesSection() {
   ];
 
   return (
-    <div className="flex justify-center flex-col gap-4 items-center py-10 px-32">
+    <div className="flex justify-center flex-col gap-4 items-center py-10 px-32 my-20 bg-teal-50">
       <H2>Services</H2>
 
       <div className="grid grid-cols-3 gap-4">
