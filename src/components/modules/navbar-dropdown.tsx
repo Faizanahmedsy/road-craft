@@ -56,14 +56,14 @@ const components: { title: string; href: string; description: string }[] = [
 export function NavigationMenuDemo() {
   return (
     <NavigationMenu>
-      <NavigationMenuItem>
-        <Link href="/docs" legacyBehavior passHref>
-          <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-            Home
-          </NavigationMenuLink>
-        </Link>
-      </NavigationMenuItem>
       <NavigationMenuList>
+        <NavigationMenuItem>
+          <Link href="/docs" legacyBehavior passHref>
+            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+              Home
+            </NavigationMenuLink>
+          </Link>
+        </NavigationMenuItem>
         <NavigationMenuItem>
           <NavigationMenuTrigger>About Us</NavigationMenuTrigger>
           <NavigationMenuContent>

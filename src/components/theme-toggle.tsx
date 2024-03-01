@@ -30,7 +30,7 @@ export function ThemeToggle() {
   }, []);
 
   return (
-    <div>
+    <div className="px-4">
       <Switch
         aria-readonly
         checked={checked}
