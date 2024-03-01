@@ -27,12 +27,12 @@ export default function ServicesSection() {
   ];
 
   return (
-    <div className="flex justify-center flex-col gap-4 items-center">
+    <div className="flex justify-center flex-col gap-4 items-center ">
       <H2>Services</H2>
 
       <div className="grid grid-cols-3 gap-4">
         {cardContent.map((content, index) => (
-          <Card className="w-[350px]" key={index}>
+          <Card className="" key={index}>
             <CardHeader>
               <CardTitle className="text-center">{content.title}</CardTitle>
               {/* <CardDescription>

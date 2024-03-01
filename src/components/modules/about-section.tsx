@@ -1,5 +1,6 @@
 import React from "react";
 import H2 from "../shared/h2";
+import Image from "next/image";
 
 export default function AboutSection() {
   return (
@@ -7,10 +8,7 @@ export default function AboutSection() {
       <H2>About Us</H2>
       <div className="grid grid-cols-2">
         <div className="p-4 flex justify-center items-center">
-          <img
-            src="https://rawatassociates.in/wp-content/themes/ample-construction/images/office-img.png"
-            alt=""
-          />
+          <Image src="/undraw2.svg" alt="" height={700} width={700} />
         </div>
         <div className="p-4 space-y-3 font-medium">
           <div className="p-4 text-xl leading-8">
