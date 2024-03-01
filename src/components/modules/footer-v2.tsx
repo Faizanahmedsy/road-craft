@@ -1,6 +1,6 @@
 import React from "react";
 
-const Footer = () => {
+const FooterV2 = () => {
   return (
     <footer className="bg-gray-900 text-gray-300 py-12">
       <div className="container mx-auto flex flex-col lg:flex-row justify-between items-center">
@@ -49,7 +49,7 @@ const Footer = () => {
 
       <div className="mt-8 text-center">
         <p className="text-sm text-gray-500">
-          Get in touch with us for any queries or feedback:
+          Subscribe to our newsletter for updates and promotions:
         </p>
         <div className="flex items-center justify-center mt-4">
           <input
@@ -58,7 +58,7 @@ const Footer = () => {
             className="py-2 px-4 mr-2 border border-teal-500 rounded-md focus:outline-none"
           />
           <button className="bg-teal-500 text-white py-2 px-4 rounded-md hover:bg-teal-600 focus:outline-none">
-            Submit
+            Subscribe
           </button>
         </div>
       </div>
@@ -70,4 +70,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default FooterV2;

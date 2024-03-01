@@ -9,8 +9,8 @@ import React from "react";
 export default function HomePage() {
   return (
     <>
-      <div className="px-32 space-y-10">
-        <HeroSection />
+      <HeroSection />
+      <div className="px-32 space-y-10 ">
         <AboutSection />
         <ShowcaseSection />
         <ServicesSection />

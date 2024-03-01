@@ -3,7 +3,7 @@ import H2 from "../shared/h2";
 
 export default function AboutSection() {
   return (
-    <div className="flex flex-col gap-2 justify-center items-center">
+    <div className="flex flex-col gap-2 justify-center items-center mt-10">
       <H2>About Us</H2>
       <div className="grid grid-cols-2">
         <div className="p-4 flex justify-center items-center">
