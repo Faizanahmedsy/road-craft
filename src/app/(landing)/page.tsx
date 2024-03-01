@@ -10,11 +10,11 @@ export default function HomePage() {
   return (
     <>
       <HeroSection />
-      <div className="px-32 space-y-10 ">
-        <AboutSection />
-        <ShowcaseSection />
-        <ServicesSection />
-      </div>
+      {/* <div className="px-32 space-y-10 "> */}
+      <AboutSection />
+      <ShowcaseSection />
+      <ServicesSection />
+      {/* </div> */}
     </>
   );
 }
