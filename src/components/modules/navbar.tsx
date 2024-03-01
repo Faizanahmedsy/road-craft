@@ -4,7 +4,7 @@ import { ThemeToggle } from "../theme-toggle";
 
 export default function Navbar() {
   return (
-    <nav className="flex items-center justify-around py-5">
+    <nav className="flex items-center justify-around py-5 fixed top-0 right-0 left-0 bg-white">
       <div>Road Craft</div>
       <div className="flex items-center">
         <NavigationMenuDemo />
