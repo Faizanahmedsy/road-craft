@@ -58,7 +58,7 @@ const FooterV3 = () => {
             className="py-2 px-4 mr-2 border border-teal-800 rounded-md focus:outline-none"
           />
           <button className="bg-teal-800 text-white py-2 px-4 rounded-md hover:bg-teal-600 focus:outline-none">
-            Subscribe
+            Submit
           </button>
         </div>
       </div>
