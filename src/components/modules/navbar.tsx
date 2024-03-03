@@ -1,6 +1,6 @@
 import React from "react";
 import { NavigationMenuDemo } from "./navbar-dropdown";
-import { ThemeToggle } from "../theme-toggle";
+// import { ThemeToggle } from "../theme-toggle";
 
 export default function Navbar() {
   return (
@@ -8,7 +8,7 @@ export default function Navbar() {
       <div className="font-bold text-teal-700">Road Craft</div>
       <div className="flex items-center">
         <NavigationMenuDemo />
-        <ThemeToggle />
+        {/* <ThemeToggle /> */}
       </div>
     </nav>
   );

@@ -1,5 +1,10 @@
+import UnderConstruction from "@/components/shared/under-construction";
 import React from "react";
 
 export default function TeamPage() {
-  return <div>TeamPage</div>;
+  return (
+    <>
+      <UnderConstruction />
+    </>
+  );
 }
